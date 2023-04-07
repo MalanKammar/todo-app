@@ -1,0 +1,18 @@
+# txt ->h1 tag
+
+## content ->h2 tag size
+### content ->h3 tag size
+`commands` 
+.\ new line breack
+[visible content](hyperlink)=[https://xyz.cm](https://xyz.com)
+
+normal content => just write paragraph wise
+
+
+**! important content !**
+
+# packges needs to installed 
+## write a command `npm intall --save bootstrap bootstrap-icons react-router-dom react-toastify`
+
+**! web page name[https://npmjs.com](https://npmjs.com)!**
+
