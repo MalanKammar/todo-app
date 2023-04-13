@@ -1,5 +1,6 @@
 import React from "react";
 import{ BrowserRouter,Routes,Route} from "react-router-dom";
+import { ToastContainer} from "react-toastify";
 import Menu from "./components/Menu";
 import { render } from "react-dom";
 import Pnf from "./components/Pnf";
@@ -11,6 +12,7 @@ function App(props){
   return(
   <BrowserRouter>
       <Menu></Menu>
+      <ToastContainer theme={'colored'} position={'top-center'}/>
       <Routes>
         <Route path={`/`} element={<Home/>}/>
         <Route path={`/create`} element={<Create/>}/>
